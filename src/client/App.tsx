@@ -3,6 +3,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 
 import reactLogo from "./assets/react.svg";
+import { Todos } from "./Todos";
 
 type AppStatus = "loading" | "idle" | ["error", string];
 
@@ -59,6 +60,7 @@ function App() {
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
         </p>
+        <Todos />
       </div>
     </div>
   );
